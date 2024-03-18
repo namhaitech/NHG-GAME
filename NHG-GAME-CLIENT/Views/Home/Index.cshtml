@@ -1,8 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Trang chủ";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">@ViewData["Question"]</h1>
+    <form asp-action="Answer" method="post">
+        <div style="display: flex; align-items: center; margin-bottom: 15px">
+            <div style="margin-right: 10px;">
+                <h4 style="margin: 0;">@ViewData["Question"].ToString().Split(' ')[1]</h4>
+            </div>
+            <div class="form-outline" data-mdb-input-init>
+                <input type="text" name="question" class="form-control" value="@ViewData["Question"].ToString().Split(' ')[1]" hidden />
+                <input type="text" name="answer" class="form-control" />
+                <label class="form-label" for="form12">Nhập câu trả lời</label>
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary" style="width: 100%" data-mdb-ripple-init>TRẢ LỜI</button>
+        </div>
+    </form>
 </div>
