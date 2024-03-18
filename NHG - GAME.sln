@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{B8B27768-EE8E-4657-8C59-1C45D3D3BEC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Layer", "2. Business Layer", "{DFF0BDE3-3063-49D2-996D-2D3B9C605EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Layer", "3. Data Layer", "{F635F5D6-3C59-4FC8-9CF6-9F0AC00D1DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHG-GAME-CLIENT", "NHG-GAME-CLIENT\NHG-GAME-CLIENT.csproj", "{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHG-GAME-API", "NHG-GAME-API\NHG-GAME-API.csproj", "{37690200-578C-4993-96FF-FE00A08EE9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37690200-578C-4993-96FF-FE00A08EE9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37690200-578C-4993-96FF-FE00A08EE9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37690200-578C-4993-96FF-FE00A08EE9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37690200-578C-4993-96FF-FE00A08EE9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83F50EF6-3D7C-49E8-86B2-48AB5FC1F255} = {B8B27768-EE8E-4657-8C59-1C45D3D3BEC6}
+		{37690200-578C-4993-96FF-FE00A08EE9BE} = {B8B27768-EE8E-4657-8C59-1C45D3D3BEC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1834962-1936-4BB8-BA8F-B3DD1088EB5B}
+	EndGlobalSection
+EndGlobal
